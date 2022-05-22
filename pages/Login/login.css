@@ -1,0 +1,32 @@
+.log_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.log_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.log_info input{
+    margin-top: 10px;
+    width: 22rem;
+    height: 1.5rem;
+    padding: 5px;
+    border: 2px solid red;
+    outline: none;
+}
+
+.log_btn{
+    padding: 10px;
+    width: 23rem !important;
+    height: 3rem !important;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
