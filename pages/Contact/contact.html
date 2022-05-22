@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../../about.css">
+    <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
     <div class="wrapper">
@@ -18,10 +19,46 @@
               <span class="active">Contact</span>
               <a href="../Register/register.html"> <span>Register</span></a> 
               <a href="../Login/login.html"> <span>Login</span></a> 
+            </div>
         </div>
-    </div>
+
+        <section class="contact_infos">
+        <div class="name_info">
+            <label for="fname">Full Name</label>
+            <input type="text" name="Full Name" required placeholder="Enter your full name" class="">
+        </div>
+        <div class="name_info" style="margin-top: 10px;">
+            <label for="email">Email</label>
+            <input type="email" name="" id="" placeholder="Enter your email address">
+        </div>
+
+        <div class="name_info" style="margin-top: 10px;">
+            <label for="priority">Select Priority</label>
+            <select name="priority" class="pro_info">
+                <option value="urgent">Urgent</option>
+                <option value="minor"> Minor</option>
+                <option value="Life and Death">Life and Death</option>
+            </select>
+        </div>
+
+        <div class="name_info" style="margin-top: 10px;">
+            <label for="email">Message</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter message here"></textarea>
+        </div>
+
+        <div class="name_info" style="margin-top: 10px;">
+            <button type="submit">Send</button> 
+        </div>
+
+        
+        </section>
    
        
     </div>
 </body>
 </html>
+
+Name 
+Email
+Message
+Priority(dropdown)
