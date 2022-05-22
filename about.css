@@ -28,6 +28,10 @@ a{
     transition: .3s ease-in;
 }
 
+.active{
+    color: red;
+}
+
 .navbar_items span:hover{
     color: red;
 }
@@ -83,6 +87,10 @@ a{
     transition: .3s ease-in;
 }
 
+.cal_btn:hover{
+    color: white;
+    background-color: red;
+}
 
 
 
