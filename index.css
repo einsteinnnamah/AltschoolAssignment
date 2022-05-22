@@ -5,6 +5,11 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .wrapper{
     max-width: 1024px;
     margin: 0 auto;
@@ -61,13 +66,27 @@
     transition: .3s ease-in;
 }
 
+
+
 .cv_btn:hover{
     background-color: rgb(156, 27, 27);
 }
 
-.cv_btn i{
-    color: black;
+
+.cal_btn{
+    padding: 12px 30px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    border-radius:3px;
+    cursor: pointer;
+    transition: .3s ease-in;
 }
+
+
+
+
+
 
 
 .edu_head{
@@ -131,6 +150,9 @@
     margin-left: 85px;
 }
 
+.hobbies{
+    margin-top: 20px;
+}
 
 
 
