@@ -38,9 +38,10 @@
 
 }
 
-.name_info button{
+.info_btn{
     padding: 10px;
-    width: 23rem;
+    width: 23rem !important;
+    height: 3rem !important;
     color: white;
     background-color: red;
     border: none;

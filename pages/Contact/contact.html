@@ -22,43 +22,39 @@
             </div>
         </div>
 
-        <section class="contact_infos">
-        <div class="name_info">
-            <label for="fname">Full Name</label>
-            <input type="text" name="Full Name" required placeholder="Enter your full name" class="">
-        </div>
-        <div class="name_info" style="margin-top: 10px;">
-            <label for="email">Email</label>
-            <input type="email" name="" id="" placeholder="Enter your email address">
-        </div>
+        <form class="contact_infos">
+            <div class="name_info">
+                <label for="fname">Full Name</label>
+                <input type="text" name="Full Name" required placeholder="Enter your full name" class="">
+            </div>
+            <div class="name_info" style="margin-top: 10px;">
+                <label for="email">Email</label>
+                <input type="email" name="" id="" required placeholder="Enter your email address">
+            </div>
 
-        <div class="name_info" style="margin-top: 10px;">
-            <label for="priority">Select Priority</label>
-            <select name="priority" class="pro_info">
-                <option value="urgent">Urgent</option>
-                <option value="minor"> Minor</option>
-                <option value="Life and Death">Life and Death</option>
-            </select>
-        </div>
+            <div class="name_info" style="margin-top: 10px;">
+                <label for="priority">Select Priority</label>
+                <select name="priority" required class="pro_info">
+                    <option value="urgent">Urgent</option>
+                    <option value="minor"> Minor</option>
+                    <option value="Life and Death">Life and Death</option>
+                </select>
+            </div>
 
-        <div class="name_info" style="margin-top: 10px;">
-            <label for="email">Message</label>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Enter message here"></textarea>
-        </div>
+            <div class="name_info" style="margin-top: 10px;">
+                <label for="email">Message</label>
+                <textarea name="" id="" cols="30" rows="10" required placeholder="Enter message here"></textarea>
+            </div>
 
-        <div class="name_info" style="margin-top: 10px;">
-            <button type="submit">Send</button> 
-        </div>
+            <div class="name_info" style="margin-top: 10px;">
+                <input class="info_btn" type="submit" value="submit">
+            </div>
 
         
-        </section>
+        </form>
    
        
     </div>
 </body>
 </html>
 
-Name 
-Email
-Message
-Priority(dropdown)
