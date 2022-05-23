@@ -1,0 +1,28 @@
+.cal_info{
+    margin-top: 10rem;
+    
+}
+
+table, tr, th{
+    border: 2px solid green;
+    border-collapse: collapse;
+    width: 400px;
+    height: 100px;
+}
+
+
+th{
+    cursor: pointer;
+}
+
+input{
+    width: 396px;
+    height: 60px;
+}
+
+
+.all_cal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
